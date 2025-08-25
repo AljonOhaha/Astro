@@ -1,0 +1,24 @@
+body { font-family: 'Roboto', sans-serif; background-color: #0d1117; color: #c9d1d9; margin: 0; padding: 0; line-height: 1.6;}
+.navbar { display: flex; justify-content: space-between; align-items: center; padding: 15px 50px; background-color: rgba(13, 17, 23, 0.8);  backdrop-filter: blur(10px); position: fixed; width: 100%; top: 0; z-index: 1000; box-sizing: border-box;}
+.navbar .logo { font-size: 1.5rem; font-weight: bold;}
+.navbar .nav-links a { color: #c9d1d9; text-decoration: none; margin: 0 15px; font-size: 0.9rem; transition: color 0.3s ease;}
+.navbar .nav-links a:hover {   color: #58a6ff;}
+.navbar .contact-btn {background-color: #58a6ff;color: #0d1117; border: none;padding: 8px 16px;border-radius: 5px;cursor: pointer;font-weight: bold;}
+.content {padding-top: 80px;}
+.hero-section { display: flex; justify-content: center; align-items: center; padding: 50px 50px; background-color: #161b22; margin: 20px; border-radius: 10px;}
+.hero-text-content { flex: 1; padding-right: 40px;}
+.hero-text-content h1 { font-size: 3rem; line-height: 1.2;}
+.hero-text-content p { font-size: 1.1rem;color: #8b949e;}
+.hero-buttons .learn-btn { background-color: #58a6ff; color: #0d1117; border: none; padding: 12px 25px; border-radius: 5px;font-weight: bold;}
+.hero-buttons .explore-btn {background: transparent;color: #58a6ff;border: 1px solid #58a6ff;   padding: 12px 25px;border-radius: 5px;margin-left: 10px;cursor: pointer;font-weight: bold;}
+.hero-image { flex: 1;text-align: right;}
+.hero-image img { max-width: 100%; height: auto; border-radius: 10px;}
+.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;padding: 20px;}
+.card { background-color: #161b22; border-radius: 10px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); padding: 20px; transition: transform 0.3s ease, box-shadow 0.3s ease;}
+.card:hover { transform: translateY(-5px); box-shadow: 0 6px 20px rgba(88, 166, 255, 0.2);}
+.card-header { display: flex; justify-content: space-between; align-items: center;}
+.card-header h3 {margin: 0;font-size: 1.2rem;}
+.card img {width: 100%;border-radius: 8px;margin-top: 15px;}
+.content-section { padding: 50px 50px; background-color: #161b22; margin: 20px; border-radius: 10px; min-height: calc(100vh - 80px); /* 100vh minus navbar height */ display: flex; flex-direction: column;justify-content: center;}
+.content-section h2 { font-size: 2rem; margin-bottom: 20px; color: #58a6ff;}
+.content-section p {color: #8b949e;}
