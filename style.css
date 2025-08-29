@@ -31,3 +31,21 @@ body { font-family: 'Roboto', sans-serif; background-color: #0d1117; color: #c9d
 .social-icons a:hover { transform: scale(1.1);}
 .social-icons img { width: 50px;height: 50px;}
 .footer-bottom {text-align: center;padding-top: 20px;margin-top: 30px;border-top: 1px solid #2d3138;font-size: 0.9rem;color: #8b949e;}
+@media (max-width: 768px) {
+    .navbar,
+    .content-section,
+    .main-footer { padding: 15px 25px; }
+    .hero-section { flex-direction: column;text-align: center; }
+    .hero-text-content h1 {font-size: 2.5rem;}
+    .hero-buttons {flex-direction: column;gap: 10px;margin-top: 20px;}}
+@media (max-width: 480px) {
+   .navbar {  flex-direction: column; align-items: flex-start; padding-top: 10px; }
+   .navbar .nav-links {display: none; }
+   .navbar .logo { margin-bottom: 10px; }
+   .navbar .contact-btn { width: 100%; margin-top: 10px; }
+   .hero-text-content h1 { font-size: 2rem;}
+   .footer-content {flex-direction: column;text-align: center;gap: 20px;}
+   .social-icons {justify-content: center;}
+   .hamburger {display: none; font-size: 2rem; cursor: pointer;}
+@media (max-width: 480px) {
+   .hamburger { display: block;}}}
